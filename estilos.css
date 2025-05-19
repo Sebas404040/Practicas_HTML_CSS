@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/white-burgers-on-a-black-background-illustration-junk-food-pattern-wallpaper-with-fast-food-for-home-and-cafe-decor-mouthwatering-sandwiches-like-a-pencil-sketch-vector.jpg");
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor_principal {
+    background-color: rgb(255, 255, 255);
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(201, 196, 196);
+    border-radius: 1rem;
+}
