@@ -1,3 +1,38 @@
+@font-face {
+    font-family: "Abel-Regular";
+    src: url("fonts/abel-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic-Zine";
+    src: url("fonts/comic_zine_ot.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FasterOne-Regular";
+    src: url("fonts/FasterOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik-Black-Italic";
+    src: url("fonts/abel-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik-Light";
+    src: url("fonts/Rubik-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: url("images/white-burgers-on-a-black-background-illustration-junk-food-pattern-wallpaper-with-fast-food-for-home-and-cafe-decor-mouthwatering-sandwiches-like-a-pencil-sketch-vector.jpg");
 }
@@ -18,4 +53,8 @@ main {
     align-items: center;
     border: 2px solid rgb(201, 196, 196);
     border-radius: 1rem;
+}
+
+button {
+    background-color: rgb(255, 252, 46);
 }
